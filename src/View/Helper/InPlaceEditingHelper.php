@@ -48,7 +48,7 @@ class InPlaceEditingHelper extends Helper
         $input     = '<'.$containerType.' id="'.$elementID.'" class="in_place_editing">'.$value.'</'.$containerType.'>';
         $script    = "$(function(){
                         $('#$elementID').editable(
-                            '../..$actionName/$id', 
+                            '..$actionName/$id', 
                             {
                                 name      : '$fieldName',
                                 type      : '$type',
