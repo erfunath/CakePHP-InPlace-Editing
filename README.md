@@ -6,7 +6,7 @@ An in-place-edit plugin for [CakePHP](http://cakephp.org), which uses the power 
 
 Combined with the awesomeness of Ajax you can make changes to your data right from the view without even reloading the page.
 
-**NOTE** - this version of the plugin has modifications by erfunath that are not fully documented. They add and enhance some functionality, but are too custom for an actual release. Please use emilushi's upstream plugin instead. Use only if you're willing to read through the InPlaceEditingHelper source.
+**NOTE** - this version of the plugin has modifications by erfunath that are not fully documented. They add and enhance some functionality, but are too custom for an actual release. Please use emilushi's upstream plugin instead. Use only if you're willing to read through the InPlaceEditingHelper source, as modifications I've made that are usable by others are included already.
 
 ## Requirements
 
