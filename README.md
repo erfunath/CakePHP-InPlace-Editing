@@ -72,7 +72,7 @@ Then add the following action on your controller which will update our **$order-
             unset($data['id']);
         }      
         
-        $order = $this->Orders->pathchEntity($order, $data);
+        $order = $this->Orders->patchEntity($order, $data);
         
         if($this->Orders->save($order)) {
             $comment = $order->comments;
